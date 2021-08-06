@@ -1,5 +1,5 @@
-(footprint "HH-SMD6028RGBC-CA_reverse_mounted_6028_2.8x3.5mm" (version 20210606) (generator pcbnew) (layer "F.Cu")
-  (tedit 60D77679)
+(footprint "HH-SMD6028RGBC-CA_reverse_mounted_6028_2.8x3.5mm" (version 20210722) (generator pcbnew) (layer "F.Cu")
+  (tedit 610208CE)
   (attr smd)
   (fp_text reference "REF**" (at 0 3.4) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.2)))
@@ -39,7 +39,7 @@
   (fp_arc (start 0 0) (end 1.949999 -1.4) (angle -108.6471836) (layer "F.Fab") (width 0.1) (tstamp 10fa7263-5111-45ff-a1ea-35c5c38ab03c))
   (fp_arc (start 0 0) (end -1.949999 1.4) (angle -108.6471836) (layer "F.Fab") (width 0.1) (tstamp d68e1b9a-a930-4b44-9fef-29b784bc2b7c))
   (pad "" np_thru_hole circle (at 0 0 180) (size 4.25 4.25) (drill 4.25) (layers *.Cu *.Mask) (tstamp 1cf35e98-09c3-4dfc-8bed-1ba3679e0794))
-  (pad "1" smd custom (at -2.667 0.8 180) (size 0.5 0.5) (layers "F.Cu" "F.Paste" "F.Mask")
+  (pad "1" smd custom (at -2.7 0.8 180) (size 0.5 0.5) (layers "F.Cu" "F.Paste" "F.Mask")
     (zone_connect 0)
     (options (clearance outline) (anchor circle))
     (primitives
@@ -55,7 +55,7 @@
       ) (width 0.04) (fill yes))
       (gr_line (start 0.525 -0.38) (end -0.65 -0.38) (width 0.04))
     ) (tstamp 508e5e13-0210-46b1-bd27-9a4ac4b75b28))
-  (pad "2" smd custom (at -2.6416 -0.8 180) (size 0.5 0.5) (layers "F.Cu" "F.Paste" "F.Mask")
+  (pad "2" smd custom (at -2.7 -0.8 180) (size 0.5 0.5) (layers "F.Cu" "F.Paste" "F.Mask")
     (zone_connect 0)
     (options (clearance outline) (anchor circle))
     (primitives
@@ -71,7 +71,7 @@
       ) (width 0.04) (fill yes))
       (gr_line (start 0.525 0.38) (end -0.65 0.38) (width 0.04))
     ) (tstamp fc706784-d149-4418-9a6f-c74d39eee8f8))
-  (pad "3" smd custom (at 2.6416 0.8) (size 0.5 0.5) (layers "F.Cu" "F.Paste" "F.Mask")
+  (pad "3" smd custom (at 2.7 0.8) (size 0.5 0.5) (layers "F.Cu" "F.Paste" "F.Mask")
     (zone_connect 0)
     (options (clearance outline) (anchor circle))
     (primitives
@@ -87,7 +87,7 @@
       ) (width 0.04) (fill yes))
       (gr_line (start 0.525 0.38) (end -0.65 0.38) (width 0.04))
     ) (tstamp b02d07aa-f67a-4bd7-a8d8-ae8449e20bf8))
-  (pad "4" smd custom (at 2.5654 -0.8) (size 0.5 0.5) (layers "F.Cu" "F.Paste" "F.Mask")
+  (pad "4" smd custom (at 2.6 -0.8) (size 0.5 0.5) (layers "F.Cu" "F.Paste" "F.Mask")
     (options (clearance outline) (anchor circle))
     (primitives
       (gr_poly (pts
