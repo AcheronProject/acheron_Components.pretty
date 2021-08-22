@@ -1,5 +1,5 @@
 (footprint "STM_UFQFPN-48_LQFP-48-1EP_7x7mm_P0.5mm_HandSoldering" (version 20210722) (generator pcbnew) (layer "F.Cu")
-  (tedit 610B515D)
+  (tedit 610CA4BB)
   (descr "QFN, 48 Pin (http://www.thatcorp.com/datashts/THAT_626x_Datasheet.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py")
   (tags "QFN NoLead")
   (attr smd)
@@ -98,14 +98,14 @@
   (pad "45" smd rect locked (at -1.25 -4 90) (size 1.8 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 08c31248-9323-4bb4-94bb-e6ff13092935))
   (pad "46" smd rect locked (at -1.75 -4 90) (size 1.8 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 84cb8218-c9ec-4949-9b41-aa58cf79022f))
   (pad "47" smd rect locked (at -2.25 -4 90) (size 1.8 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 65dbc01a-46f0-4ba7-9afb-d4775515bf74))
+  (pad "47" smd rect locked (at 0 0) (size 5.2 5.2) (layers "F.Cu" "F.Mask") (tstamp 9e5237aa-b927-4919-b661-317443af7caa))
   (pad "48" smd rect locked (at -2.75 -4 90) (size 1.8 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 62e4e54a-c687-43c1-8449-bd0df1b457a0))
-  (pad "49" smd rect locked (at 0 0) (size 5.2 5.2) (layers "F.Cu" "F.Mask") (tstamp 9e5237aa-b927-4919-b661-317443af7caa))
   (model "${KISYS3DMOD}/Package_DFN_QFN.3dshapes/QFN-48-1EP_7x7mm_P0.5mm_EP5.45x5.45mm.wrl" hide
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "${KISYS3DMOD}/Package_QFP.3dshapes/LQFP-48_7x7mm_P0.5mm.wrl"
+  (model "${KISYS3DMOD}/Package_QFP.3dshapes/LQFP-48_7x7mm_P0.5mm.wrl" hide
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
