@@ -1,0 +1,206 @@
+(footprint "DFN-8-1EP_3x3mm_P0.65mm_EP1.6x2.56mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "DFN, 8 Pin (https://e.chipanalog.com/Public/Uploads/uploadfile/files/20250106/CS485xxdatasheetVersion1.03en20240429.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py")
+	(tags "DFN NoLead Chipanalog-DFN8-D")
+	(property "Reference" "REF**"
+		(at 0.55 -2.475 0)
+		(layer "F.SilkS")
+		(uuid "f0af591d-b5b5-4518-bf17-da691b81a962")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "DFN-8-1EP_3x3mm_P0.65mm_EP1.6x2.56mm"
+		(at 0 2.45 0)
+		(layer "F.Fab")
+		(uuid "23e32795-724e-451b-87d5-868b98a52906")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "748caf48-37cf-42a3-8751-84360a4dd748")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d02f95e0-90e3-41df-bf6f-47e7eca5b0a8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy -1.95 -1.475) (xy -2.7 -1.475) (xy -1.95 -2.225)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "501ef38f-f19a-4ef0-b2ff-d525e0abee5b")
+	)
+	(fp_line
+		(start -2.13 -1.75)
+		(end 2.13 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ffd7844e-99c8-4a60-a0bd-0094dc73b903")
+	)
+	(fp_line
+		(start -2.13 1.75)
+		(end -2.13 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f8dcbd14-f993-4a6d-aaa0-69e300612f67")
+	)
+	(fp_line
+		(start 2.13 -1.75)
+		(end 2.13 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e27ef1f0-f505-4a9b-a3f2-29782b058a12")
+	)
+	(fp_line
+		(start 2.13 1.75)
+		(end -2.13 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "73f7c04e-84db-49ca-8409-c141d6b645fc")
+	)
+	(fp_poly
+		(pts
+			(xy -0.75 -1.5) (xy 1.5 -1.5) (xy 1.5 1.5) (xy -1.5 1.5) (xy -1.5 -0.75)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "b654b2ca-1ffb-4512-bf8b-47e66eb28267")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "3bf835b5-20d5-4f3b-acb1-ea4a2c4cbab0")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.11)
+			)
+		)
+	)
+	(pad "" smd roundrect
+		(at 0 0)
+		(size 1.29 2.06)
+		(layers "F.Paste")
+		(roundrect_rratio 0.193798)
+		(uuid "5ff4369f-4833-43c3-8919-0db2c2830371")
+	)
+	(pad "1" smd oval
+		(at -1.45 -0.975)
+		(size 0.85 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "128a433b-112b-4162-bca2-e89f714c0359")
+	)
+	(pad "2" smd rect
+		(at -1.45 -0.325)
+		(size 0.85 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "481522d8-9b0d-4a28-8d92-12eeffb5d131")
+	)
+	(pad "3" smd rect
+		(at -1.45 0.325)
+		(size 0.85 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b1a54dff-6d54-44af-a7f0-95d30a35dd2b")
+	)
+	(pad "4" smd rect
+		(at -1.45 0.975)
+		(size 0.85 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "99332f71-c450-471e-866b-0a60d9e297f5")
+	)
+	(pad "5" smd rect
+		(at 1.45 0.975)
+		(size 0.85 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b1148e15-f760-409c-9523-fcf488a7b066")
+	)
+	(pad "6" smd rect
+		(at 1.45 0.325)
+		(size 0.85 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f61a2042-f6ce-4352-94ec-0c0173eb0f0a")
+	)
+	(pad "7" smd rect
+		(at 1.45 -0.325)
+		(size 0.85 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5ba306ae-ce65-492f-8b39-48ad2140ba1b")
+	)
+	(pad "8" smd rect
+		(at 1.45 -0.975)
+		(size 0.85 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2c481bc1-47ae-48ca-b031-24aed3ddda1b")
+	)
+	(pad "9" smd rect
+		(at 0 0)
+		(size 1.6 2.56)
+		(property pad_prop_heatsink)
+		(layers "F.Cu" "F.Mask")
+		(zone_connect 2)
+		(uuid "c4bbef1d-257c-4b4f-b505-2bc58d084071")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/DFN-8-1EP_3x3mm_P0.65mm_EP1.6x2.56mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
