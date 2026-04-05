@@ -1,7 +1,7 @@
 (footprint "SK6812MINI_3535_6028_3.2x2.8mm_Round"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 3.048 180)
@@ -22,18 +22,6 @@
 			(font
 				(size 0.381 0.381)
 				(thickness 0.0762)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "5cfabe33-48e0-49b2-90d4-56454b425949")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -70,7 +58,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "e0cb1d40-159c-466e-82a9-c9aeb57752f5")
 	)
@@ -101,7 +89,7 @@
 			(width 0.01)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "8b17d1c2-7934-45ab-8740-3ff19c5f5da5")
 	)
@@ -112,7 +100,7 @@
 			(width 0.01)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "2fb1782f-3599-4f13-9a47-f9ecb73190eb")
 	)
@@ -280,7 +268,7 @@
 	(pad "1" smd custom
 		(at -2.728224 0.8)
 		(size 0.6 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(options
 			(clearance outline)
 			(anchor rect)
@@ -313,7 +301,7 @@
 	(pad "2" smd custom
 		(at -2.728224 -0.8 180)
 		(size 0.6 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(options
 			(clearance outline)
 			(anchor rect)
@@ -346,7 +334,7 @@
 	(pad "3" smd custom
 		(at 2.728224 -0.8 180)
 		(size 0.6 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(options
 			(clearance outline)
@@ -386,7 +374,7 @@
 	(pad "4" smd custom
 		(at 2.728224 0.8)
 		(size 0.6 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(options
 			(clearance outline)
 			(anchor rect)
@@ -416,6 +404,7 @@
 		)
 		(uuid "414d669b-07aa-4ae2-ace1-f761728a0cf8")
 	)
+	(embedded_fonts no)
 	(model "${ACHERON_3D}/6028SMDRGB.iges"
 		(offset
 			(xyz 0 0 0)
